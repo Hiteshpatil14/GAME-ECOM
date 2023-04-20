@@ -1,0 +1,56 @@
+thead{
+    background-color: rgb(241, 129, 129);
+    color: black;
+
+}
+thead th{
+    padding: 20px 120px;
+    font-size: 1.3em;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+.product-name,.product-price{
+    font-size: 1.5em;
+}
+tbody tr td{
+    padding: 10px;
+}
+.total{
+    padding: 20px 0px 0px 10px;
+    font-size: 2em;
+}
+.total {
+    width: 1500px;
+    margin: auto;
+   display: flex;
+   justify-content: center;
+   
+   border-top:2px solid rgb(126, 124, 124) ;
+  
+   
+   
+}
+.total span{
+    margin: 0px 20px;
+}
+.payment-button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    border-radius: 5px;
+    background-color:green;
+    color: aliceblue;
+    font-weight: 600;
+}
+.remove-cart-item{
+    font-size: 1.3em;
+    font-weight: 600;
+
+    color: red;
+}
+.checkout-page{
+    padding-top: 50px;
+}
+

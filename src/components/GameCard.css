@@ -1,0 +1,54 @@
+.MainCard{
+    min-height: 300px;
+    width:390px;
+    border:3px solid white;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 30px;
+    border-radius: 10px;
+
+}
+.cardBody{
+    padding-top: 20px;
+    min-height: 300px;
+    background-color: black;
+    color: aliceblue;
+
+    
+}
+.MainCard:hover{box-shadow: 0 0 3px black;
+    transform: translate(0, -30px);}
+
+.CardPrice{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.CardPrice h2{
+    font-size: 1.8em;
+}
+.MainCard img{
+    width: 100%;
+    height: 430px;
+    
+
+}
+.checkoutButton{
+    font-size: 1em;
+    font-weight: 700;
+    padding: 6px 16px;
+    margin-top: 18px;
+    height: 2.8em;
+    border-radius: 10px;
+}
+.description{
+    font-size: 1.1em;
+    padding: 5px;
+    text-align: center;
+}
+.title{
+    font-size: 1.6em;
+    padding: 5px;
+    text-align: center;
+    
+}
